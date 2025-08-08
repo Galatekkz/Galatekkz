@@ -1,0 +1,2693 @@
+:root
+{
+--default: "objektiv-mk2",sans-serif;
+}
+  
+    *
+	{
+    box-sizing: border-box;
+    }
+  
+    .col-padding-top
+    {
+    padding:0 !important;
+    }
+  
+    body
+    {
+    margin:0px;
+    padding:0px;
+    width:100vw;
+    font-family:var(--default);
+    overflow-x:clip;
+    }
+    
+    .banner
+    {
+    position:relative;
+    height:45rem;
+    }
+
+    .mobileheading
+    {
+    display:none;
+    }
+
+    .main-banner
+    {
+    width:100%;
+    height:45rem;
+    }
+
+    .main-background-overlay::before
+    {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+    background: #000;
+    opacity: .4;
+    }
+    
+
+    h1
+    {
+    height:16rem !important;
+    font-size:7.5rem !important;
+    line-height:8.5rem !important;
+    color:#fff !important;
+    width:57.5rem !important;
+    }
+    
+    h1.our-business-h1
+    {
+    height:16rem !important;
+    font-size:6rem !important;
+    line-height:8rem !important;
+    color:#fff !important;
+    width:75rem !important;
+    }
+    
+    
+    p
+    {
+    font-size:1.25rem;
+    line-height:2rem;
+    font-weight:400;
+    }
+    
+    .whiteboxtext p
+    {
+    margin-top:3rem;max-width:28rem;
+    }
+
+    .banner-text
+    {
+    position:absolute;
+    top:0px;
+    width:100%;
+    }
+
+    .bannerimage
+    {
+    /*display:block;*/
+    width:100%;
+    }
+
+    .sitetitle
+    {
+    max-width:75rem;
+    margin:10rem auto;  
+    height:16rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    }
+
+    .masthead
+    {
+    min-width: 104rem;
+    width: 88%;;
+    height:9rem;
+    background-color:#fff;
+    position:absolute;
+    top:36rem;
+    right:0;
+    }
+    
+    .masthead-inner
+    {
+    position:relative;
+    }
+    
+    .masthead-text
+    {
+    width:100%;
+    max-width:75rem;
+    font-size:2.75rem;
+    line-height:4rem;
+    font-weight:bold;
+    }
+    
+    .masthead-swash
+    {
+    background-color:#315B74;
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:2rem;
+    width:100%;
+    max-width:49rem;
+    }
+    
+    .mobileswash
+    {
+    display:none;
+    }
+
+    .WC-container
+    {
+    max-width:75rem;
+    margin:0 auto;
+    position:relative;
+    }
+    
+    #WarehouseImage
+    {
+    margin-top:6rem;
+    }
+    
+    .uppersquare
+    {
+    background-color:#F5E33F;
+    z-index:5;
+    width:360px;
+    height:352px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    }
+    
+    .uppersquare2
+    {
+    background-color:#2B92A2;
+    z-index:10;
+    width:360px;
+    height:360px;
+    position:absolute;
+    left:initial;
+    right:0px;
+    top:0px;
+    }
+    
+    .uppersquare3
+    {
+    background-color:#6F898A;
+    z-index:10;
+    width:360px;
+    height:360px;
+    position:absolute;
+    right:28.5rem;
+    top:0px;
+    }
+    
+    .uh70
+    {
+    margin-top:70px;
+    }
+    
+    .lowersquare
+    {
+    position:absolute;
+    bottom:0px;
+    left:36%;
+    width:22.5rem;
+    height:22.5rem;
+    z-index:10;
+    background-color:#004561;
+    }
+    
+    .lowersquaredecarb
+    {
+    left:50%;
+    }
+    
+    .whiteboxtext
+    {
+    position:absolute;
+    z-index:30;
+    top:6.5rem;
+    width:53%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#fff;
+    }
+    
+    .whiteboxleft
+    {
+    left:0px;
+    padding-right:93px;
+    }
+    
+    .whiteboxright
+    {
+    right:0px;
+    padding-left:6rem;
+    }
+    
+    .ysqimage
+    {
+    /*position:absolute;*/
+    position:relative;
+    top:2rem;
+    width:100%;
+    max-width:73rem;
+    z-index:5;
+    }
+    
+    .colourwhole
+    {
+    height:44rem;position:relative;
+    }
+    
+    .whitehalf
+    {
+    position:absolute;
+    top:0px;
+    height:22rem;
+    width:100%;
+    background-color:#fff;
+    z-index:5;
+    }
+    
+    .greyhalf
+    {
+    position:absolute;
+    top:22rem;
+    height:22rem;
+    width:100%;
+    background-color:#F2F2F2;
+    z-index:5;
+    }
+    
+    .underlined-heading
+    {
+    text-decoration:underline;
+    font-size:1.375rem;
+    font-weight:bold;
+    }
+    
+    .underlined-heading a
+    {
+    text-decoration:underline;
+    font-size:1.375rem;
+    font-weight:bold;
+    color:#000;
+    cursor:default;
+    }
+    
+    .underlined-heading a:hover
+    {
+    opacity: 0.7;
+    cursor: pointer;
+    }    
+    
+    
+    .hnews
+    {
+    padding-top:94px;color:#fff;
+    }
+    
+    .hnews a
+    {
+    color:#fff;
+    }
+    
+    .masthead-text-64
+    {
+    margin-top:3rem;
+    font-size:3.25rem;
+    line-height:4rem;
+    font-weight:bold;
+    }
+    
+    .greyjoiner
+    {
+    background-color:#f2f2f2;padding-top:6rem;
+    }
+    
+    #marketsdesktop
+    {
+    display:flex;
+    }
+    
+    #marketsmobile
+    {
+    display:none;
+    }
+    
+    .cardmatrix
+	  {
+	  margin-top:2rem;
+	  display:flex;
+	  flex-direction:row;
+	  flex-wrap:wrap;
+	  margin-bottom:4rem;
+	  }
+	  
+	 .statcardmatrix
+	  {
+	  display:flex;
+	  flex-direction:row;
+	  gap:2rem;
+	  }
+	  
+	.card
+	 {
+	 display:flex;
+	  flex-direction:column;
+	  /*width:calc(33.333333333333333333% - 21.33333333333333333px);*/
+	  width:calc(33.333333333333333333%);
+	  margin-top:2rem;
+	  /*margin-right:2rem;*/
+	  position:relative;
+	  cursor:pointer;
+	  height:7rem;
+	 
+	 /*&:nth-child(3n) {
+      margin-right: 0; 
+      }
+      */
+	 } 
+	 
+	 .newscard
+	 {
+	 display:flex;
+	  flex-direction:column;
+	  width:calc(33.333333333333333333% - 21.33333333333333333px);
+	  margin-top:2rem;
+	  margin-right:2rem;
+	  position:relative;
+	  height:7rem;
+	  background-color:#000;
+	  height:30.5rem;
+	 
+	 &:nth-child(3n) {
+      margin-right: 0; 
+      }
+	 } 
+	 
+    #marketsdesktop .card:hover .marketcardtitle
+	 {
+	 background-color:#000;    
+	 color:#fff;
+	 text-decoration:underline;
+	 }
+	 
+	 #marketsdesktop .card:hover .marketcardtitle a
+	 {
+	 color:#fff;
+	 text-decoration:underline;
+	 }
+	 
+	 #marketsdesktop .card:hover .marketcardicon
+	 {
+	 background: url('../index_4.html');
+	 }
+	 
+    .marketcardtitle
+	 {
+	 width:calc(100% - 2rem);
+	 background-color:#fff;
+	 color:#000;
+	 z-index:10;
+	 position:absolute;
+	 top:0px;
+	 transition:background-color 0.2s ease;
+	 text-decoration:none;
+	 }
+	 
+	 .marketcardtitle a
+	 {
+	 color:#000;
+	 text-decoration:none;
+	 }
+	 
+    .marketcardtitleinner
+	 {
+	 margin:30px 0 1.5rem 2rem;
+	 font-size:24px;
+	 font-weight:bold;   
+	 }
+
+	 
+    .marketcardimage
+	 {
+	 width:calc(100% - 3rem);
+	 z-index:0;
+	 position:relative;
+	 top:2rem;
+	 left:2rem;
+	 height:4.5rem;
+	 }
+    
+    .marketcardicon
+    {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 1.5rem;
+    top: 1.5rem;
+    cursor: pointer;
+    background: url('../index_1.html');
+    }
+    
+    .blackbg
+    {
+    width:100%;
+    background-color:#000;
+    height:40rem;
+    position:relative;
+    z-index:0;
+    }
+    
+    .blackbgcontainer
+    {
+    height:56rem;
+    background-color:#fff;
+    }
+    
+    .greybgcontainer
+    {
+    height:78rem;
+    }
+    
+    .greybg
+    {
+    width:100%;
+    background-color:#F2F2F2;
+    height:40rem;
+    position:relative;
+    z-index:0;
+    height:56rem;
+    }
+    
+    /*#newscardmatrix
+    {
+    margin-top:4rem;
+    }*/
+    
+    .challengeimage
+    {
+    width:100%;
+    height:19rem;
+    z-index:0;
+    }
+    
+    .challengeimagebox
+    {
+    position:absolute;
+    top:166px;
+    background-color:#fff;
+    width:20rem;
+    height:18rem;
+    left:29.33px
+    }
+    
+    .challengeimageboxtext
+    {
+    font-weight:bold;
+    padding:2rem;
+    }
+    
+    .challengeimageboxtext a
+    {
+    font-size:1.75rem;
+    line-height:2.375rem;
+    color:#000;
+    text-decoration:none;
+    }
+    
+    .challengeimageboxtext a:hover
+    {
+    text-decoration:underline;
+    }
+    
+    .challengeimageboxbutton
+    {
+    position:absolute;
+    bottom:0px;
+    height:4rem;
+    padding-left:2rem;
+    }
+    
+    .challengedatebox
+    {
+    display:none;
+    }
+    /*.challengechevron{
+        display:none;
+    }*/
+    
+        .marketlink{
+        color:#000;
+        text-decoration:none;
+    }
+    .marketlink:hover {
+        text-decoration:underline;
+    }
+    
+    .cta-black
+    {
+    text-align:center;
+    margin-top:2rem;
+    /*width:12rem;*/
+    width: fit-content;
+    background-color:#000;
+    cursor:pointer;
+    color:#fff;
+    border-radius:2rem;
+    padding:1rem 1.5rem;
+    font-size:1rem;
+    font-weight:bold;
+    transition:background-color 0.2s ease;
+    transition:color 0.2 ease;
+    border:2px #000 solid;
+    text-decoration:none;
+    }
+    
+    .cta-black:hover
+    {
+    background-color:#fff;
+    color:#000;
+    border:solid 2px #000;
+    }
+    
+    .cta-white
+    {
+    width: fit-content;
+    color:#000;
+    font-size:1rem;
+    padding:1rem 1.5rem;
+    border:solid 2px #000;
+    border-radius:2rem;
+    /*width:9rem;
+    height:3rem;*/
+    background-color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+    transition:background-color 0.2s ease;
+    text-decoration:none;
+    }
+    
+    .ctawmain
+    {
+    margin-top:3rem;
+    margin-left:0px;
+    /*width:15rem;*/
+    padding:1rem 2rem;
+    height:auto;
+    border:0px;
+    }
+    
+    .cta-white:hover
+    {
+    background-color:#000;
+    color:#fff;
+    }
+    
+    .bluesearchicon
+    {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 1rem;
+    top: 3.5rem;
+    cursor: pointer;
+    background: url('../index_3.html');
+    background-repeat:no-repeat;
+    }
+    
+    .searchtips
+    {
+    margin:35px auto;
+    max-width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    gap:1rem;
+    }
+    
+    .searchterm
+    {
+    background-color:#0F61FD;
+    border-radius:2rem;
+    border:0px;
+    color:#fff;
+    padding:1rem 1rem 0.9rem 1rem;
+    cursor:pointer;
+    opacity: 1.0; 
+    text-decoration:none;
+    
+    /*&:nth-child(4n) {
+      margin-right: 0; 
+    }
+    
+    &:nth-child(n+5) {
+        opacity:0.7;
+    }*/
+    }
+    
+
+    /* Apply opacity of 0.7 to items from 5th onwards */
+    .searchtips a:nth-child(n+6) .searchterm {
+    opacity: 0.75;
+    }
+    
+    .searchterm:hover
+    {
+    text-decoration:underline;
+    }
+
+    
+    /*.topst
+    {
+    opacity: 1.0; 
+    }
+    
+    .secondst
+    {
+    opacity:0.6;
+    }*/
+    
+    #DecarbImage
+    {
+    width:60%;max-width:742px;max-height:785px;left:37.5%;top:32px;
+    }
+    
+    #CareersImage
+    {
+    width:59%;max-width:710px;max-height:618px;left:0%;top:32px;
+    }
+    
+    #DecarbContainer
+    {
+    margin-top:94px;height:680px;margin-bottom:70px;
+    }
+    
+    #SearchHeader
+    {
+    padding-top:90px;display:flex;justify-content:center;font-size:2rem;
+    }
+    
+    .searchboxholder
+    {
+    width: fit-content;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    }
+    
+    #txtSearch
+    {
+    background-color:#fff;border-radius:2rem;padding:16px 32px;font-size:20px;color:#000;border:0px;width:600px;margin:2rem auto 0 auto;
+    }
+    
+    #CareersContainer
+    {
+    margin-top:94px;height:680px;margin-bottom:70px;
+    }
+    
+
+    
+    /*.playbutton
+    {
+    background: url('../images/Play_triangle.svg');
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    z-index: 20;
+    position: absolute;
+    top: 300px;
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    left: 500px;
+    background-color: #2e7791;
+    border-radius: 100%;
+    opacity: 0.9;
+    background-size: 30px;
+    transform: scale(1);
+    transition:box-shadow 0.2s ease;
+    }
+    
+    #AboutUsPage*/ 
+    .playbutton
+    {
+    background: url('../images/Play_triangle.svg');
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 96px;
+      width: 96px;
+      border-radius: 100%;
+      z-index: 5;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: black;
+      transition: transform 0.3s ease; /* Ensure smooth scaling transition */
+      background-position: 55% 50%;
+    }
+    
+    .playbutton:hover
+    {
+    transform: translate(-50%, -50%) scale(1.2); /* Keep translate and scale */
+    cursor:pointer;
+    }
+    
+    .videoContainer 
+    {
+    position:absolute;
+    height:657px;
+    width:100%;
+    overflow: hidden;
+    z-index:30;
+    }
+
+    .videoContainer video 
+    {
+    min-width: 100%;
+    min-height: 100%;
+    }
+    
+    .ipadonly
+    {
+    display:none;
+    }
+    
+    .careertext
+    {
+    max-width:24rem;
+    }
+
+    .RemarkableClick
+    {
+    transition: opacity 0.4s ease;
+    cursor:pointer;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0);
+    position:relative;
+    }
+    
+    .RemarkableClickLink
+    {
+    flex-direction:column;
+    justify-content:center;
+    color:#fff;
+    font-size:1rem;
+    font-weight:bold;
+    text-align:center;
+    width:100%;
+    height:100%;
+    padding:0 4rem;
+    display:none;
+    }
+    
+    .RemarkableClickLink a
+    {
+    text-decoration:none;
+    }
+    
+    .Remarkable:hover .RemarkableClick
+    {
+    transition:background-color 0.4s ease;
+    background-color:rgba(0,0,0,0.7);
+    display:flex;
+    }
+    
+    .Remarkable:hover .RemarkableClickLink
+    {
+    display:flex;
+    }
+    
+    .Remarkable:hover .arrow
+    {
+    display:flex;
+    }
+    
+    #AboutUsPage .arrowcontainer
+    {
+    position: absolute;
+    bottom:4.5rem;
+    width:100%;
+    flex-direction:row;
+    justify-content:center;
+    display:flex;
+    }
+    
+    .arrow
+    {
+    background: url('../index_2.html');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    content: "";
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    border-radius: 100%;
+    z-index: 2;
+    display:none;
+    }
+    
+    .cta-sustain
+    {
+    background-color:#355D65;
+    width:250px;
+    margin-bottom:70px;
+    text-align: center;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1rem 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    border: 2px #fff solid;
+    text-decoration: none;
+    }
+    
+    .cta-sustain:hover
+    {
+    background-color:#fff;
+    color:#355D65;
+    }
+    
+    .ImpactTileContainer
+    {
+    height:617px; /* initial value */
+    }
+    
+    .ImpacTileContainerContainer
+    {
+    display:block;
+    height:1234px; /* initial value */
+    }
+    
+    #VideoHolder
+    {
+    position:relative;
+    margin-top:6rem;
+    cursor:pointer;
+    }
+
+    .abstractsholder
+    {
+    padding:6rem 0;
+    background: linear-gradient(to top, #000 10%, transparent 0%), #fff top no-repeat;
+    background-size: cover;
+    }
+    
+    .abstractimage1
+    {
+    width:56%;
+    height:70%;
+    background-color:#000;
+    background:url('../index_6.html');
+    background-size;cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:5%;
+    right:3%
+    ;z-index:30;    
+    }
+    
+    .abstractbackblock1
+    {
+    width:39.4%;
+    height:60%;
+    background-color:#2B92A2;
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:10;
+    }
+
+    .abstractbackblock1_2
+    {
+    width:56%;
+    height:60%;
+    background-color:#3B6F85;
+    position:absolute;
+    bottom:20%;
+    right:20%;
+    z-index:20;
+    display:block;
+    }
+    
+    .abstracttext1
+    {
+    width:43rem;
+    height:80%;
+    background-color:#fff;
+    position:absolute;
+    bottom:0%;
+    left:0%;
+    z-index:40;
+    }
+    
+    .ac_text
+    {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#fff;
+    margin-left:3rem;
+    max-width:35rem;
+    }
+    
+    .abstractbackblock2
+    {
+    width:32.5%;
+    height:60%;
+    background-color:#7E7DD0;
+    position:absolute;
+    top:0px;
+    left:26%;
+    z-index:10;
+    }
+    
+    .abstractbackblock2_2
+    {
+    width:10%;
+    height:30%;
+    background-color:#FBBCC9;
+    position:absolute;
+    bottom:0%;
+    right:calc(34em + 5%);
+    z-index:35;
+    }
+    
+    .abstractimage2
+    {
+    width:56%;
+    height:90%;
+    background-color:#000;
+    background:url('../images/AboutUsOurHistoryImage.webp');
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:4%;
+    left:0%;
+    z-index:30;
+    }
+    
+    .abstracttext2
+    {
+    width:43rem;
+    height:90%;
+    background-color:#fff;
+    position:absolute;
+    bottom:0%;
+    right:0%;
+    z-index:40;
+    }
+    
+    #HistoryMatrix
+    {
+        margin-bottom:7rem;
+    }
+    
+    #impactcardmatrixholder
+    {
+    display:none;
+    margin-bottom: 7rem;
+    }
+    
+    .impactzonebgsplit
+    {
+    padding:6rem 0;
+    }
+
+    #transitionzone1
+    {
+    display:block;
+    }
+    
+    #transitionzone2
+    {
+    display:none;
+    }
+    
+    #remarkables
+    {
+    display:block;
+    }
+    
+    #remarkablesmobile
+    {
+    display:none;
+    }
+    
+    
+    
+    #newscardmatrixholder
+    {
+    margin-bottom:7rem;
+    }
+    
+    .remarkableholder
+    {
+    background: #fff;
+    /*padding-bottom:11rem;*/
+    }
+    
+    .impacttiletext
+    {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;   
+    }
+    
+    /* FEATURE BOXES */
+    
+    .CB1-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align left container to the start */
+            align-items: flex-start; /* Aligns to top of wrapper */
+            /*background-color: #f4f4f4; /* Background color for wrapper */
+            /*height: 100vh;  Full height */
+             padding-bottom: 7rem;
+             min-height:44rem;
+        }
+
+        .CB1-image-container {
+            position: relative;
+            top: 2rem;
+            width: 65%; /* 80% of the viewport width */
+            height: 40rem; /* Limit the height */
+            background: url('../index_5.html') no-repeat center center;
+            background-size: cover;
+            flex-shrink: 0; /* Prevents the container from shrinking */
+            z-index: 1; /* Bring this container above the new container */
+        }
+        
+
+        .CB1-white-container {
+            position: relative;
+            margin-top: -40rem; /* Fixed offset from the top of the wrapper */
+            margin-left: auto;
+            top:7rem;
+            right: 0; /* Align to the right edge of the viewport */
+            width: 65%; /* 65% of the viewport width */
+            background-color: #ffffff; /* White background */
+            padding: 4rem; /* Padding for text area */
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Optional box shadow */
+            z-index: 3; /* Bring this container on top of the left container */
+        }
+        
+        .CB1-color-1-container {
+            position: absolute;
+            width: 25rem;
+            height: 25rem;
+            background-color: #7687AC; /*#ff6347;*/
+            top: 0rem;
+            left: calc(65% - 25rem + 2rem);
+            z-index: 0;
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+        }
+        .CB1-color-2-container {
+            position: absolute;
+            width: 2rem;
+            height: 15rem;
+            background-color: #EEBE8B;
+            top: 35rem;
+            right: calc(65% - 2rem + 2rem);
+            z-index: 2;
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+        }
+        
+        .CB2-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align left container to the start */
+            align-items: flex-start; /* Aligns to top of wrapper */
+            /*background-color: #f4f4f4;  Background color for wrapper */
+             padding-bottom: 7rem;
+             min-height:44rem;
+        }
+        
+        .CB2-white-container {
+            position: relative;
+            margin-top:-40rem;
+            margin-right:auto;
+            top: 7rem;
+            width: 65%; /* 80% of the viewport width */
+            padding: 4rem; /* Padding for text area */
+            background-color: #ffffff; /* White background */
+            flex-shrink: 0; /* Prevents the container from shrinking */
+            z-index: 3; /* Bring this container above the new container */
+        }
+        
+
+        .CB2-image-container {
+            position: relative;
+            top: 2rem; /* Fixed offset from the top of the wrapper */
+            right: 2rem; /* Align to the right edge of the viewport */
+            height: 40rem; /* Limit the height */
+            width: 65%; /* 65% of the viewport width */
+            /*background: url('./?a=268072') no-repeat center center;*/
+            background-size: cover;
+            z-index: 1; /* Bring this container on top of the left container */
+            margin-left: auto;
+        }
+
+        .text-area {
+            max-width: 600px; /* Optional: set max-width for text area */
+        }
+        
+        .CB2-color-1-container {
+            position: absolute;
+            width: 25rem;
+            height: 25rem;
+            background-color: #1D5B1A;
+            top: 0rem;
+            right: 0rem;
+            z-index: 0;
+        }
+        .CB2-color-2-container {
+            position: absolute;
+            width: 30%;
+            height: 2rem;
+            background-color: #75BB38;
+            top: 42rem;
+            right: calc(22%);
+            z-index: 2;
+        }
+
+        
+        .padding6
+        {
+        margin-top:6rem !important;
+        }
+        
+        .padding4
+        {
+        margin-top:6rem;
+        }
+        
+        /* END OF FEATURE BOXES */
+    
+       .HistoryBottom
+       {
+       margin-bottom:3rem;
+       }
+       
+       .FactCard
+       {
+       width:calc(100% - 2rem);position:absolute;left:0%;top:2rem;z-index:12;background-color:#fff;height:13rem;padding:2rem;
+       }
+       
+       .FactCardText1
+       {
+       font-size:3rem;   
+       font-weight:bold;
+       }
+       
+       .FactCardText2
+       {
+       font-size:2rem;
+       font-weight:bold;
+       }
+       .wrapperpadding{
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+       }
+
+@media only screen and (max-width:1199px) 
+{
+    .banner
+    {
+    display:none;
+    position:relative;
+    height:24rem;
+    }
+
+.mobileheading
+    {
+    height:15rem !important;
+    display:block;
+    margin:0 auto;
+    width:calc(100% - 2rem);
+    margin-top:4rem;
+    }
+    
+
+.main-banner
+    {
+    width:100vw;
+    height:16.5rem;
+    }
+  
+.main-background-overlay::before
+{
+display:none;
+}
+    
+    h1
+    {
+    height:12rem !important;
+    font-size:5rem !important;
+    line-height:6rem !important;
+    color:#000 !important;
+    max-width:100% !important;
+    margin:2rem 1rem !important;
+    }
+    
+     .ctawmain
+    {
+    margin-top:1.5rem;
+    margin-left:1rem;
+    width:15.5rem;
+    padding:1rem 2rem;
+    height:auto;
+    border:0px;
+    border:solid 1px #000;
+    }
+    
+    .masthead-text
+    {
+    width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    }
+    
+    .masthead-text-64
+    {
+    width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    }
+    
+    .WC-container
+    {
+    width:calc(100% - 2rem);
+    }
+    
+    #WarehouseImage
+    {
+    margin-top:4rem;
+    }
+    
+    .cardmatrix
+    {
+    /*margin-bottom:14rem;
+    height:20rem;*/
+    }
+    
+    .videoContainer 
+    {
+    left:0;
+    height:448px;
+    }
+    
+     .colourwhole
+    {
+    height:27rem;position:relative;
+    }
+    
+    .whitehalf
+    {
+    position:absolute;
+    top:0px;
+    height:13.5rem;
+    width:100%;
+    background-color:#fff;
+    z-index:5;
+    }
+    
+    .greyhalf
+    {
+    position:absolute;
+    top:13.5rem;
+    height:13.5rem;
+    width:100%;
+    background-color:#F2F2F2;
+    z-index:5;
+    }
+    
+    #WarehouseImage
+    {
+    position: relative;
+    width: calc(100% - 4rem);
+    margin: 4rem 4rem 4rem 0;
+    }
+    
+    .uppersquare
+    {
+    right:-3rem;
+    }
+    
+    .card
+	 {
+	 display:flex;
+	  flex-direction:column;
+	  width:calc(50% - 32px);
+	  margin-top:32px;
+	 /* margin-right:32px;*/
+	  position:relative;
+	  cursor:pointer;
+	 
+ /*&:nth-child(2n) {
+      margin-right: 32px; 
+      }
+   */   
+	 }  
+	 
+	 .newscard
+	 {
+	 display:flex;
+	  flex-direction:column;
+	  width:15rem;
+	  margin-top:2rem;
+	  margin-right:1.5rem;
+	  position:relative;
+	  cursor:pointer;
+	  height:7rem;
+	  background-color:#000;
+	  height:20rem;
+	 
+	 &:nth-child(3n) {
+      margin-right: 1.5rem; 
+	 }
+	 
+	 }  
+	 
+	 #newscardmatrix
+    {
+    position:relative;
+    height:25.5rem;
+    margin-top:0rem;
+    overflow-x:scroll;
+    flex-wrap:nowrap;
+    /*left:-1rem;*/
+    }
+    
+    
+    #newscardmatrix::-webkit-scrollbar 
+    {
+      display:none;
+      height: 20px;
+      background:#fff;
+    }
+
+    #newscardmatrix::-webkit-scrollbar-track 
+    {
+      border-radius: 10px;
+    }
+ 
+    #newscardmatrix::-webkit-scrollbar-thumb 
+    {
+      background: #000; 
+      border-radius: 10px;
+    }
+
+    #newscardmatrix::-webkit-scrollbar-thumb:hover 
+    {
+      background: #000; 
+    }
+    
+    #impactcardmatrixholder
+    {
+    display:block;
+    margin-bottom:0px;
+    }
+    
+    #impactcardmatrix
+    {
+    display:flex;
+    position:relative;
+    height:25.5rem;
+    margin-top:0rem;
+    overflow-x:scroll;
+    flex-wrap:nowrap;
+    left:-1rem;
+    }
+    
+    #impactcardmatrix::-webkit-scrollbar 
+    {
+      display:none;
+      height: 20px;
+      background:#fff;
+    }
+
+    #impactcardmatrix::-webkit-scrollbar-track 
+    {
+      border-radius: 10px;
+    }
+ 
+    #impactcardmatrix::-webkit-scrollbar-thumb 
+    {
+      background: #000; 
+      border-radius: 10px;
+    }
+
+    #impactcardmatrix::-webkit-scrollbar-thumb:hover 
+    {
+      background: #000; 
+    }
+    
+    #impactcardmatrix .newscard
+    {
+    height:18.1rem;
+    }
+    
+    #impactcardmatrix .challengeimagebox
+    {
+    position: absolute;
+    top: 7.25rem;
+    background-color: #fff;
+    width: 90%;
+    height: 10rem;
+    left: 0.75rem;
+    }
+    
+    #impactcardmatrix .challengeimage
+    {
+    height:18.1rem;
+    }
+    
+    #remarkablescardmatrixholder
+    {
+    display:block;
+    margin-bottom:0px;
+    height:15rem;
+    margin-left:1rem;
+    }
+    
+    #remarkablescardmatrix
+    {
+    display:flex;
+    position:relative;
+    height:25.5rem;
+    margin-top:1rem;
+    overflow-x:scroll;
+    flex-wrap:nowrap;
+    left:-1rem;
+    }
+    
+    #remarkablescardmatrix::-webkit-scrollbar 
+    {
+      display:none;
+      height: 20px;
+      background:#fff;
+    }
+
+    #remarkablescardmatrix::-webkit-scrollbar-track 
+    {
+      border-radius: 10px;
+    }
+ 
+    #remarkablescardmatrix::-webkit-scrollbar-thumb 
+    {
+      background: #000; 
+      border-radius: 10px;
+    }
+
+    #remarkablescardmatrix::-webkit-scrollbar-thumb:hover 
+    {
+      background: #000; 
+    }
+    
+    #remarkablescardmatrix .newscard
+    {
+    height:18.1rem;
+    }
+    
+    #remarkablescardmatrix .challengeimagebox
+    {
+    position: absolute;
+    bottom:0rem;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    left: 0rem;
+    top:unset;
+    }
+    
+    #remarkablescardmatrix .challengeimageboxtext
+    {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100%;
+    text-align:center;
+    }
+    
+    #remarkablescardmatrix .challengeimageboxtext a
+    {
+    color:#fff;
+    font-size:1rem;
+    line-height:1.2rem;
+    }
+    
+    #remarkablescardmatrix .challengeimage
+    {
+    height:18.1rem;
+    }
+    
+    .ipadonly
+    {
+    display:block;
+    }
+    
+    .challengeimage
+    {
+    width:15rem;
+    height:12rem;
+    z-index:0;
+    }
+    
+    .challengeimagebox
+    {
+    position: absolute;
+    top: 9rem;
+    background-color: #fff;
+    width: 13rem;
+    height: 10rem;
+    left: 1rem;
+    }
+    
+    .challengeimageboxtext
+    {
+    font-weight:bold;
+    padding:1rem;
+    }
+    
+    .challengeimageboxtext a
+    {
+    font-size:1.2rem;
+    line-height:1.5rem;
+    color:#000;
+    text-decoration:none;
+    }
+    
+    .challengeimageboxtext a:hover
+    {
+    text-decoration:underline;
+    }
+    
+    .challengeimageboxbutton
+    {
+    display:none;
+    }
+	
+	.challengedatebox
+	{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    height: 2rem;
+    left: 1.25rem;
+	}
+	
+	.challengedate
+	{
+	font-size:0.75rem;
+	font-weight:400;
+	}
+	 
+	 .whiteboxtext
+    {
+    position:relative;
+    z-index:30;
+    top:14rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#fff;
+    width:100%;
+    }
+    
+    .whiteboxleft
+    {
+    left:0px;
+    padding-right:0px;
+    }
+    
+    .whiteboxright
+    {
+    left:0px;
+    padding-left:0px;
+    }
+	 
+	.blackbgcontainer
+	{
+	height:42rem;
+	}
+	
+	.whiteboxtext
+	{
+	position: relative;
+    z-index: 30;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 60%;
+    height:36rem;
+	}
+	
+	.whiteboxleft
+	{
+	left:1rem;
+	}
+	
+	.lowersquaredecarb
+    {
+    left:20%;
+    }
+    
+    #txtSearch
+    {
+    width:600px;
+    }
+    
+    #SearchHeader
+    {
+    font-size:1.5rem !important;
+    line-height:2rem !important;
+    }
+    
+    .searchterm
+    {
+    text-align:center;
+    }
+    
+    .whiteboxbottom
+    {
+    top: 4rem;
+    height: 38rem;
+    }
+    
+    .whiteboxright
+    {
+    width:60%;
+    left:calc(40% - 1rem)
+    }
+    
+    .uh70
+    {
+    margin-top:2rem;
+    }
+    
+    .careerpadding
+    {
+    padding:0 20px 0 0;
+    }
+    
+    #CareersContainer
+    {
+    height:650px;
+    }
+    
+    .lowersquarecareers
+    {
+    background-color: #6D8295;
+    left: 34%;
+    top: 22rem;
+    }
+    
+    #DecarbImage
+    {
+    left:35.5%;
+    }
+    
+    .greybgcontainer
+    {
+    height:90rem;
+    }
+    
+    .bluesearchicon
+    {
+    /*right:4.5rem;*/
+    }
+    
+    .careertext
+    {
+    max-width:100%
+    }
+    
+    .ImpactTileContainerContainer
+    {
+    display:none;
+    }
+    
+    .sustainableblue1
+    {
+    position:absolute;
+    top:34%;
+    left: 20%;
+    background-color:#7FA5B2;
+    width:26%;
+    height:50%;
+    z-index:10;
+    }
+    
+    .CB1-white-container{
+        padding:2rem;
+    }
+    
+    .CB2-white-container{
+        padding:2rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) 
+{
+h1
+    {
+    height:7rem !important;
+    }
+
+    .mobileheading
+    {
+    height:9rem;
+    }
+    
+    .masthead-text
+    {
+    margin-top:0;
+    }
+    
+    .ysqimage
+    {
+    width:61rem;
+    }
+    
+    /*.playbutton
+    {
+    top:250px;
+    left:450px;
+    }
+    
+    #AboutUsPage .playbutton
+    {
+    top:200px;
+    left:460px;
+    }*/
+    
+    .greyjoiner
+    {
+    padding-top:13rem;
+    margin-top:0rem;
+    }
+    
+    .careerpadding
+    {
+    padding: 0 20px 0 20px;
+    }
+    
+    #HistoryCard3Holder
+    {
+    //display:none;
+    }
+    
+    .abstractsholder
+    {
+    padding:6rem 0px 0px 0px;
+    }
+    
+    .bluesearchicon
+    {
+    /*right:12.5rem;*/
+    }
+    
+    #newscardmatrix
+    {
+    /*margin-left:1rem;*/
+    }
+    
+    .remarkableholder
+    {
+    padding-bottom:0px;
+    }
+    
+    .sustainableblue1
+    {
+    left:17%;
+    top:35%;
+    }
+    
+    .CB2-white-container{margin-top: -30rem;}
+    .CB2-image-container{height: 30rem;}
+    .CB2-color-2-container{top: 32rem;}
+    .CB1-white-container{margin-top: -30rem;}
+    .CB1-image-container{height: 30rem;}
+    .CB1-color-2-container{top: 22rem;right: calc(64% - 2rem + 2rem);}    
+    
+}
+
+@media only screen and (max-width: 799px) 
+{
+  h1
+    {
+    height:11rem !important;
+    }  
+    
+ .masthead-text
+    {
+    margin-top:4rem;
+    }
+    
+    .ysqimage
+    {
+    width:46rem;
+    max-width:46rem;
+    }
+    
+    /*.playbutton
+    {
+    top:180px;
+    left:340px;
+    }*/
+    
+    .greyjoiner
+    {
+    padding-top:5rem;
+    }
+    
+    .bluesearchicon
+    {
+    /*right:4.5rem;*/
+    }
+    
+    .card {
+	 display:flex;
+	  flex-direction:column;
+	  width:100%;
+	  margin-top: -1px;
+	  position:relative;
+	  cursor:pointer;
+	 }  
+	 
+	.statcardmatrix {
+    flex-direction: column;
+    gap: 0;
+    max-width: 24rem;
+        margin: auto;
+	}
+	
+	 .FactCard
+       {
+        width: calc(100% - 2rem);
+        top: 2rem;
+        z-index: 12;
+        background-color: #fff;
+        height: unset;
+        padding: 2rem;
+                text-align: center;
+       }
+       
+       .FactCardText1
+       {
+       font-size:2rem;       
+       }
+       
+       .FactCardText2
+       {
+       font-size:1.5rem;
+       }
+    #HistoryCard2,#HistoryCard3
+    {
+    display:none;
+    }
+    
+    .challengechevron{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../index_2.html');
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    }
+       
+       
+    }       
+
+@media only screen and (max-width: 599px) 
+{
+   
+   p
+    {
+    font-size:1rem;
+    line-height:1.375rem;
+    font-weight:400;
+    }
+   
+   .whiteboxtext p
+    {
+    margin-top:1.25rem;
+    max-width:20rem;
+    }
+   
+h1
+    {
+    height:8rem !important;
+    font-size:3rem !important;
+    line-height:4rem !important;
+    color:#000 !important;
+    max-width:100% !important;
+    margin:2rem 1rem !important;
+    }
+
+    .banner-text
+    {
+    position:absolute;
+    top:16.5rem;
+    width:100%;
+    }
+
+    .bannerimage
+    {
+    width: calc(100% - 0.5rem);  
+    }
+
+    .sitetitle
+    {
+    height:0rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+    
+    .masthead
+    {
+    width:100%;
+    height:2rem;
+    background-color:#fff;
+    position:absolute;
+    top:16.5rem;
+    left:0rem;
+    display:none;
+    }
+    
+    .masthead-inner
+    {
+    position:relative;
+    }
+    
+    .masthead-text
+    {
+    width:calc(100% - 2rem) !important;
+    max-width:calc(100% - 2rem) !important;
+    font-size:1.5rem;
+    line-height:2rem;
+    font-weight:400;
+    }
+    
+    .mobileswash
+    {
+    background-color: #507876;
+    position: absolute;
+    top: 4.5rem;
+    right: 0px;
+    height: 13rem;
+    width: 50%;
+    z-index: -1;
+    display: block;
+    }
+    
+    .WC-container
+    {
+    width:100%;
+    max-width:100%;
+    margin:0 1rem;
+    position:relative;
+    }
+    
+    #WarehouseImage
+    {
+    width: calc(100% - 1rem);
+    margin-top: 2.5rem;
+    left: 1rem;
+    }
+    
+    .uppersquare
+    {
+    background-color:#F5E33F;
+    z-index:5;
+    width:50%;
+    height:10rem;
+    position:absolute;
+    left:-1rem;
+    top:0px;
+    }
+    
+    .yellowsquare
+    {
+    background-color:#F5E33F;
+    z-index:10;
+    width:360px;
+    height:30px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    }
+    
+    .ysqimage
+    {
+    position:relative;
+    top:1rem;
+    width:calc(100% - 1rem);
+    z-index:5;
+    margin:0;
+    }
+    
+     .colourwhole
+    {
+    height:12rem;position:relative;
+    }
+    
+    .whitehalf
+    {
+    position:absolute;
+    top:0px;
+    height:6rem;
+    width:100%;
+    background-color:#fff;
+    z-index:5;
+    }
+    
+    .greyhalf
+    {
+    position:absolute;
+    top:6rem;
+    height:6rem;
+    width:100%;
+    background-color:#F2F2F2;
+    z-index:5;
+    }
+    
+    .underlined-heading
+    {
+    text-decoration:underline;
+    font-size:1rem;
+    font-weight:bold;
+    }
+    
+    .underlined-heading a
+    {
+    text-decoration:underline;
+    font-size:1rem;
+    font-weight:bold;
+    color:#000;
+    }
+    
+    .masthead-text-64
+    {
+    width:calc(100% - 2rem);
+    margin-top:1rem;
+    font-size:1.5rem;
+    line-height:2rem;
+    font-weight:bold;
+    }
+    
+    .mht64mob
+    {
+    width:21rem;    
+    }
+    
+    .greyjoiner
+    {
+    background-color:#f2f2f2;padding-top:5rem;
+    }
+    
+    #marketsdesktop
+    {
+    display:none;
+    }
+    
+    #marketsmobile
+    {
+    width:calc(100% - 2rem);
+    display:flex;
+    border-top:1px solid #000;
+    margin-top:2.5rem;
+    flex-direction:column;
+    margin-bottom:3rem;
+    }
+    
+    .mobmarketcard
+    {
+    position:relative;
+    font-size:1rem;
+    font-weight:500;
+    padding:1rem 0;
+    border-bottom:solid 1px #000;
+    }
+    
+    .mobmarketcard a
+    {
+    color:#000;
+    text-decoration:none;
+    }
+    
+    .mobmarketcard a:hover
+    {
+    text-decoration:underline;
+    }
+    
+    .mobmarketcardchevron
+    {
+    position:absolute;
+    top:1.7rem;
+    right:0.7rem;
+    background-image: url('../images/chevron_1.svg');
+    transform: translateY(-50%);
+    width:20px;
+    height:20px;
+    }
+    
+    .hnews
+    {
+    padding-top:3rem;
+    color:#fff;
+    }
+    
+    .blackbgcontainer
+    {
+    height:34rem;
+    }
+    
+    .blackbg
+    {
+    height:27.5rem;
+    }
+    
+    
+
+	 
+.newscard
+	 {
+	 display:flex;
+	  flex-direction:column;
+	  width:100%;
+	  margin-top:2rem;
+	  position:relative;
+	  cursor:pointer;
+	 }
+	 
+	 
+	 
+	 .searchtips
+	 {
+	 max-width:100%;
+	 margin:0 1rem;
+	 }
+	 
+	 .ctawmain
+    {
+    margin-top:1.5rem;
+    margin-left:1rem;
+    border:solid 2px #000;
+    }
+    
+    .cta-black
+    {
+    margin-top:1rem;
+    }
+
+    
+    #DecarbImage
+    {
+    object-position: center;
+    object-fit: cover;
+    width:100%;
+    left:-1rem;
+    top:0;
+    aspect-ratio:16/9;
+    }
+    
+    .uppersquare2
+    {
+    background-color:#2B92A2;
+    z-index: 10;
+    width: calc(100% - 2rem);
+    height: 10rem;
+    position: absolute;
+    left:2rem;
+    right: 0rem;
+    top: -1rem;
+    }
+    
+    .uppersquare3
+    {
+    background-color:#6F898A;
+    z-index: 10;
+    width: 19.5rem;
+    height: 10rem;
+    position: absolute;
+    left:0rem;
+    right: 0rem;
+    top: 4rem;
+    }
+    
+    .lowersquare
+    {
+    display:none;
+    }
+    
+    .uh70
+    {
+    margin-top:0rem;
+    }
+    
+    #CareersImage
+    {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    left: 1rem;
+    top: -0.5rem;
+    aspect-ratio:16/9;
+    }
+    
+    #DecarbContainer
+    {
+    margin-top:94px;
+    height:33rem;
+    width:calc(100% - 2rem);
+    }
+    
+    #SearchHeader
+    {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    }
+    
+    .searchboxholder
+    {
+    width: calc(100% - 4rem);
+    margin: 0 2rem 0 1rem;
+    }
+    
+    #txtSearch
+    {
+    background-color:#fff;
+    border-radius:24px;
+    padding:1rem;
+    font-size:1rem;
+    color:#979797;
+    border:0px;
+    width:100%;
+    margin-top:2rem;
+    height:48px;
+    margin-bottom:2px;
+    }
+    
+    .bluesearchicon
+    {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 1rem;
+    top: 3rem;
+    cursor: pointer;
+    background: url('../index_3.html');
+    background-repeat:no-repeat;
+    }
+    
+    .searchterm
+    {
+    display:none;
+    background-color: #f7f7f7;
+    border-radius: 0;
+    border: 0px;
+    color: #000;
+    padding: 0;
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 0.75rem;
+    }
+    
+    #CareersContainer
+    {
+    margin-top:4rem;
+    height:43rem;
+    margin-bottom:70px;
+    width:calc(100% - 2rem);
+    }
+    
+    .whiteboxtext
+    {
+    height:22rem;
+    top:14rem;
+    width:100%;
+    left:0;
+    }
+    
+    .whiteboxbottom
+    {
+    top: 14rem;
+    height: 24rem;
+    }
+    
+    .whiteboxright
+    {
+    left:0px;
+    }
+    
+    .greybg
+    {
+    height:29rem;
+    }
+    
+    .greybgcontainer
+    {
+    height:45rem;
+    }
+    
+    .playbutton
+    {
+    height: 80px;
+    width: 80px;
+    top: 53%;
+    left: 47%;
+    background-size:30%;
+    }
+    
+    .padding4
+    {
+    margin-top:4rem;
+    }
+    
+    /*.playbutton
+    {
+    background: url('../images/Play_triangle.svg');
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    z-index: 20;
+    position: absolute;
+    top: 70px;
+    background-repeat: no-repeat;
+    background-position: right 17px center;
+    left: 145px;
+    background-color: #2e7791;
+    border-radius: 100%;
+    opacity: 0.9;
+    background-size: 20px;
+    }
+    
+    #AboutUsPage .playbutton
+    {
+    background: url('../images/Play_triangle.svg');
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    z-index: 20;
+    position: absolute;
+    top: 90px;
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    left: 170px;
+    background-color: #2e7791;
+    border-radius: 100%;
+    opacity: 0.9;
+    background-size: 20px;
+    transition: box-shadow 0.2s ease;
+    }*/
+    
+    .masthead-text h2
+    {
+    font-weight:400 !important;
+    }
+    
+    .hnews a
+    {
+    color:#fff !important;
+    }
+    
+    .videoContainer 
+    {
+    left:-1rem;
+    height:220px;
+    }
+
+    .ipadonly
+    {
+    display:none;
+    }
+
+    .careertext
+    {
+    max-width:100%
+    }
+
+    #VideoHolder
+    {
+    position:relative;
+    margin-top:2.5rem;    
+    }
+
+    .abstractsholder
+    {
+    padding:2.5rem 0;
+    background: linear-gradient(to top, #f7f7f7 17%, transparent 0%), #fff top no-repeat;
+    background-size: cover;
+    }
+
+    .abstractimage1
+    {
+    width:84%;
+    height:43%;
+    background-color:#000;
+    background:url('../images/AboutUsWhereWeWorkImage.webp');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:5%;
+    right:2rem;
+    z-index: 50;
+    left:0%
+    }
+    
+    .abstractbackblock1
+    {
+    width:80%;
+    height:43%;
+    background-color:#6C783E;
+    position:absolute;
+    top:0px;
+    left:10%;
+    z-index:10;
+    }
+
+    .abstractbackblock1_2
+    {
+    display:none;
+    }
+    
+    .abstracttext1
+    {
+    width:100%;
+    max-width:100%;
+    top:50%;
+    height:70%;
+    }
+    
+    .ac_text
+    {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#fff;
+    margin:0;
+    max-width:calc(100% - 2rem);
+    }
+    
+    .abstractimage2
+    {
+    width:82%;
+    height:30%;
+    background-color:#000;
+    background:url('../images/ProfessionalWomanHoldingLaptop.webp');
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:12%;
+    left:4rem;
+    z-index: 50;
+    right:0%
+    }
+    
+    .abstracttext2
+    {
+    top:50%;
+    width:100%;
+    height:70%;
+    max-width:100%;
+    }
+    
+    .abstractbackblock2
+    {
+    background-color:#6F898A;
+    width: 74%;
+    height: 46%;
+    position: absolute;
+    top: 0px;
+    left: 2rem;
+    z-index: 10;
+    }
+    
+    /*#AboutUsPage .card
+    {
+    height:6rem;
+    }*/
+    
+
+    
+    #HistoryMatrix
+    {
+    padding-top:0rem;
+    height:unset;
+    }
+    
+    .ImpactTileContainerContainer
+    {
+    display:none;
+    }
+    
+    .impactzonebgsplit
+    {
+    background: linear-gradient(to top, #f7f7f7 30%, transparent 0%), #f7f7f7 top no-repeat;
+    background-size: cover;
+    padding:6rem 0 0 0;
+    }
+    
+    #transitionzone1
+    {
+    display:none;
+    }
+    
+    #transitionzone2
+    {
+    display:block;
+    }
+    
+    #remarkables
+    {
+    display:none;
+    }
+    
+    #remarkablesmobile
+    {
+    display:block;
+    }
+    
+    #newscardmatrixholder
+    {
+    margin-bottom:0rem;
+    }
+    
+    .remarkableholder
+    {
+    padding-bottom:0rem;
+    }
+    
+    .CB1-wrapper {
+        padding-bottom:0; 
+        min-height:0;
+    }
+    .CB1-image-container {
+        top: 0rem;
+        width: calc(100% + 1rem);
+        height: 12rem;
+    }    
+    .CB1-white-container {
+        margin-top: 2rem;
+        padding: 2rem 0;
+        margin-left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .CB1-color-1-container {
+        top: 3rem;
+        left: -1rem;
+        width: 18rem;
+        height: 10rem;
+    }    
+    .CB1-color-2-container {
+        display:none;
+    }
+    
+    .CB2-wrapper{
+        padding-bottom:0; 
+        min-height:0;
+    }
+    .CB2-image-container {
+        top: 1rem;
+        /*right: 1rem;*/
+        height: 12rem;
+        width: calc(100% - 1rem);
+    }    
+    .CB2-white-container {
+        margin-top: 0;
+        margin-right: 0;
+        top: 2rem;
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .CB2-color-1-container {
+        width: 18rem;
+        height: 10rem;
+        top: 0rem;
+        right: -1rem;
+    }    
+    .CB2-color-2-container {
+        display:none;
+    }
+    
+    #remarkablescardmatrixholder
+    {
+    height:280px;
+    }
+    
+    .HistoryBottom, #HistoryMatrix
+       {
+       margin-bottom:0rem;
+       }
+       
+      
+       
+       #HistoryMatrix .card
+       {
+       margin-top:0px;
+       }
+       
+       .arrow
+       {
+       display:block;
+       }
+       
+       
+       #AboutUsPage .CB2-image-container{display:none;}
+       #AboutUsPage .CB2-color-1-container{display:none;}
+       #AboutUsPage .CB2-white-container{padding:0 0 2rem 0;}
+       #AboutUsPage .abstractsholder{padding:0;} 
+       .wrapperpadding{
+       margin-top: 0rem;
+       }
+}
+
+

@@ -1,0 +1,13 @@
+<svg id="Component_160_6" data-name="Component 160 – 6" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Rectangle_2534" data-name="Rectangle 2534" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+    <rect width="18" height="18" stroke="none"/>
+    <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+  </g>
+  <g id="Group_12941" data-name="Group 12941" transform="translate(-1872.75 -17.75)">
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1874 19)" fill="none" stroke="#4C4B5B" stroke-width="1.5">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="5.75" fill="none"/>
+    </g>
+    <line id="Line_15" data-name="Line 15" x1="5" y1="5" transform="translate(1884.5 29.5)" fill="none" stroke="#4C4B5B" stroke-width="1.5"/>
+  </g>
+</svg>
